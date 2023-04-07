@@ -1,0 +1,420 @@
+@font-face {
+    font-family: mona_sans;
+    src: url(mona_sans/Mona-Sans.woff);
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: mona_sans, sans-serif;
+    color: #1C1A30;
+    background-color: linear-gradient(18.83deg, #FFFFFF 0%, #FFADD1 13.7%, #FF569F 97.06%);
+
+}
+
+/* Navbar*/
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    padding: 15px 40px;
+}
+
+.topnav img {
+    height: 40px;
+    width: 140px;
+    font-weight: 900;
+}
+
+.topnav img:hover {
+    opacity: 0.6;
+}
+
+.topnav a {
+  float: left;
+  color: #224b22;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'inter', sans-serif;
+}
+
+.topnav a:hover {
+    color: #873DF8;
+}
+
+.topnav-right {
+   
+    float: right;
+}
+
+
+.common-btn {
+    width: 130px;
+    padding: 5px 7px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 0px;
+    border: 1px solid #873DF8;
+    background-color: #873DF8;
+    color: white;
+    border-radius: 3px;
+    
+}
+
+button:hover {
+    background-color: white;
+    color: #873DF8;
+    
+}
+  
+.topnav .icon {
+      display: none;
+    }
+
+/*Home*/
+
+.container {
+    margin: 15px 30px;
+    
+}
+
+#home {
+    padding-top: 20px;
+    background-color: white;
+    background-size: cover;
+    margin:0%;
+}
+
+.home-row {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex:wrap;
+    
+
+}
+
+.home-left-col {
+    flex-basis: 60%;
+    text-align: center;
+    padding: 15px 0px;
+    margin: 0px 0px;
+    text-align: left;
+
+}
+
+.home-right-col img{
+    flex-basis: 40%;
+    text-align: center;
+    padding: 0%;
+    margin: 0px 20px 0px -20%;
+    max-width: 120%;
+    max-height: 100%;
+}
+
+.home-left-col h2 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 63px;
+}
+
+span {
+    color: #873DF8;
+    text-decoration: underline solid 3px;
+}
+
+.home-left-col p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+/*About us*/
+
+
+#about-us {
+    width:100%;
+    height:100%;
+    margin-top: -20px;
+    background-color: #00BAEB;
+}
+.about-row {
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+}
+
+.about-col-1 h2 {
+    color: white;
+    margin-bottom: 14px;
+    font-size: 40px;
+}
+
+.about-col-2 p {
+    color: white;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+/* enroll */
+
+#enroll {
+    width:100%;
+    height:100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.enroll-row {
+    padding: 10px 40px;
+    text-align: center;
+    display: flex;
+    flex: wrap;
+    height: 380px;
+}
+
+ h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.enroll-left-col {
+    flex-basis: 50%;
+    margin: 15px 15px 10px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.enroll-left-col img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.enroll-left-col img:hover {
+    transform: scale(1.5);
+}
+
+
+
+.enroll-right-col {
+    flex-basis: 50%;
+    margin: 15px 15px 10px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.enroll-right-col img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.enroll-right-col img:hover {
+    transform: scale(1.5);
+}
+
+.enroll-left-col h4 {
+    position: absolute;
+    bottom: 20px;
+    right: 35%;
+    color: white;
+    font-size: 25px;
+}
+
+.enroll-right-col h4 {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    color: white;
+    font-size: 25px;
+}
+
+/* programs */
+
+#program {
+    width:100%;
+    height:100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.program-row {
+    padding: 10px 30px;
+    display: flex;
+    flex: wrap;
+    height: 360px;
+}
+
+.pro {
+    flex-basis: 30%;
+    margin: 15px 15px;
+    max-height: 100%;
+    max-width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+
+.pro h4 {
+    font-size: 20px;
+    padding: 10px;
+    color:#873DF8;
+}
+
+.pro img {
+    height: 80px;
+    width: 80px;
+}
+
+
+.userdes {
+    flex-basis: 30%;
+    margin: 15px 15px;
+    max-height: 100%;
+    max-width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.userdes h4 {
+    font-size: 20px;
+    padding: 10px;
+    color: #FF569F;
+}
+
+.userdes img {
+    height: 80px;
+    width: 80px;
+}
+
+.robo {
+    flex-basis: 30%;
+    margin: 15px 15px;
+    max-height: 100%;
+    max-width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.robo h4 {
+    font-size: 20px;
+    padding: 10px;
+    color: #00BAEB;
+}
+
+.robo img {
+    height: 80px;
+    width: 80px;
+}
+
+/* Additional info*/
+
+
+#add {
+    padding-top: 20px;
+    background-color: white;
+    background-size: cover;
+    margin:0%;
+}
+
+.add-home-row {
+    width: 100%;
+    
+    display: flex;
+    flex:wrap;
+    
+
+}
+
+.add-left-col img{
+    flex-basis: 40%;
+    padding: 0%;
+    margin: 10px 20px 10px 20px;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+
+.add-right-col {
+    flex-basis: 60%;
+    padding: 15px 0px;
+    margin: auto -5%;
+    text-align: right;
+
+}
+.add-right-col h3 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 63px;
+    color: #F9408E;
+}
+
+
+/* footer */
+
+#footer {
+    background-color: #873DF8;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0% ;
+}
+
+.footer-row {
+    padding: 1% 10%;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-col-1{
+    flex-basis: 33%;
+}
+
+.footer-col-1 img {
+    height: 40px;
+    width: 140px;
+    font-weight: 900;
+}
+
+.footer-col-2 {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.footer-col-3 {
+    flex-basis: 33%;
+    text-align: right;
+}
+
+
+.footer-col-1 p {
+    color:#FFFFFF;
+}
+
+.footer-col-2 p {
+    color:#FFFFFF;
+    padding-bottom: 10px;
+}
+
+.footer-col-3 p {
+    color:#FFFFFF;
+    padding-bottom: 10px;
+}
